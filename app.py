@@ -43,7 +43,7 @@ with col1:
 
     if img_file_buffer is not None:
         image = Image.open(img_file_buffer).convert('RGB')
-        st.image(image, caption="입력된 이미지", use_column_width=True)
+        st.image(image, caption="입력된 이미지", use_container_width=True)
 
 with col2:
     if img_file_buffer is not None:
